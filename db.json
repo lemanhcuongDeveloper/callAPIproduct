@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Áo trắng basic 84RISING",
+      "price": 220,
+      "imageUrl": "imagesp/sp1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Áo Local Brand SLY",
+      "price": 320,
+      "imageUrl": "imagesp/sp2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Áo Local Brand HBS",
+      "price": 150,
+      "imageUrl": "imagesp/sp3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Áo Local Brand ZOMBIE",
+      "price": 170,
+      "imageUrl": "imagesp/sp4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Brand SCC Daily Sneaker",
+      "price": 230,
+      "imageUrl": "imagesp/sp5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Áo Local Brand FREAKERS",
+      "price": 350,
+      "imageUrl": "imagesp/sp6.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Áo Local Brand NIRVANA",
+      "price": 150,
+      "imageUrl": "imagesp/sp7.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Áo Local Brand GODSON",
+      "price": 90,
+      "imageUrl": "imagesp/sp8.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Áo Local Brand SSSTUTER",
+      "price": 220,
+      "imageUrl": "imagesp/sp9.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Áo Local  The Fabulous",
+      "price": 345,
+      "imageUrl": "imagesp/sp10.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Áo Local Brand ONTOP",
+      "price": 140,
+      "imageUrl": "imagesp/sp11.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Áo Local Brand TSUN",
+      "price": 190,
+      "imageUrl": "imagesp/sp12.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Áo Local Brand TSUN",
+      "price": 190,
+      "imageUrl": "imagesp/sp12.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Áo Local Brand TSUN",
+      "price": 190,
+      "imageUrl": "imagesp/sp12.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Áo Local Brand TSUN",
+      "price": 190,
+      "imageUrl": "imagesp/sp12.jpg"
+    }
+  ],
+  "dm": [
+    {
+      "id": "1",
+      "img": "imagesp/sp12.jpg",
+      "name": "Sản phẩm 1",
+      "price": 100,
+      "category": "sp-moi"
+    },
+    {
+      "id": "2",
+      "img": "imagesp/sp12.jpg",
+      "name": "Sản phẩm 2",
+      "price": 200,
+      "category": "sp-moi"
+    },
+    {
+      "id": "3",
+      "img": "imagesp/sp11.jpg",
+      "name": "Sản phẩm 3",
+      "price": 150,
+      "category": "sp-hot"
+    },
+    {
+      "id": "4",
+      "img": "imagesp/sp11.jpg",
+      "name": "Sản phẩm 4",
+      "price": 250,
+      "category": "sp-hot"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "Áo Local Brand ONTOP",
+      "imageUrl": "imagesp/sp12.jpg",
+      "price": 199
+    },
+    {
+      "id": "2",
+      "name": "Áo Local Brand ONTOP",
+      "imageUrl": "imagesp/sp11.jpg",
+      "price": 199
+    },
+    {
+      "id": "3",
+      "name": "Áo Local Brand ONTOP",
+      "imageUrl": "imagesp/sp8.jpg",
+      "price": 199
+    },
+    {
+      "id": "4",
+      "name": "Áo Local Brand ONTOP",
+      "imageUrl": "imagesp/sp9.jpg",
+      "price": 199
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+
+    <title>Trang chủ</title>
+    <style>
+        .footer {
+            background-color: #f8f8f8;
+            padding: 40px 0;
+            float: left;
+            width: 100%;
+            height: 350px;
+        }
+
+        .footer h4 {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .footer p {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .footer-links li {
+            list-style: none;
+            margin-bottom: 5px;
+        }
+
+        .footer-links a {
+            color: #777;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            color: #333;
+        }
+
+        .search {
+            margin-left: 200px;
+          height:50px;
+
+        }
+  
+        .hidden {
+            display: none;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="image/logo.png" alt="" width="5%">
+
+            </div>
+            <div class="search">
+                <input type="search" name="" id="" placeholder="Bạn đang tìm kiếm điều gì?">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="account">
+                <a style="color: black;" href="signin.html">ĐĂNG NHẬP</a>
+                <a style="color: black;" href="signup.html">&nbsp;&nbsp;ĐĂNG KÍ&nbsp;</a>
+                <a style="color: black;" href="admin.html">&nbsp;&nbsp;ADMIN&nbsp;</a>
+                <a style="color: black;" href="signup.html">&nbsp;&nbsp;CHI TIẾT SẢN PHẨM&nbsp;</a>
+               <ul id="cart-ul">
+                <i class="fa-solid fa-cart-shopping"  style="color:rgb(8, 11, 8);cursor:pointer;"></i>
+               </ul>
+               <li class="hidden">
+                <section id="cart">
+                    <i class="fas fa-times"  id="cart-icon" style="float:right;color:darkcyan;cursor:pointer;"></i>
+                    <h2 style="color:darkcyan;">Giỏ hàng</h2>
+                    <form action="">
+                        <table border="1">
+                            <thead>
+                                <th>Sản phẩm</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th>Chọn</th>
+                            </thead>
+                            <tbody>
+    
+                            </tbody>
+                        </table>
+                        <div class="price-total" style="text-align: right;">
+                            <p style="font-weight: bold;margin-top: 5px;">Tổng tiền: <span>0</span><sup>đ</sup></p>
+                        </div>
+                    </form>
+                    <button
+                        style="background-color: darkcyan;color: white;outline: none;border-radius: 10px;cursor:pointer;">Thanh
+                        toán</button>
+                </section>
+               </li>
+            </div>
+             
+            <div id="slide">
+                <img id="hinh" src="image/0.jpg" alt="">
+                <div class="dieuhuong">
+                    <i class="fa-solid fa-circle-left"></i>
+                    <i class="fa-solid fa-circle-right"></i>
+                    
+                </div>
+            </div>
+        </header>
+
+        <article>
+            <section class="product">
+                <div class="container">
+
+                    <div id="product-list"></div>
+
+                </div>
+            </section>
+        
+        </article>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>About Us</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque lectus non elit
+                            commodo, sit amet tincidunt justo sagittis.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Contact Us</h4>
+                        <p>123 Street, City</p>
+                        <p>LeManhCuong@example.com</p>
+                        <p>+1 234 567 890</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+   
+    <script src="./js/app.js"></script>
+  
+</body>
+
+</html>

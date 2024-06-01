@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý sản phẩm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            margin-top: 30px;
+            color: #333;
+        }
+
+        #product-list {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px; /* Giới hạn chiều rộng của danh sách sản phẩm */
+            margin-top: 20px;
+        }
+
+        #product-list img {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        #product-list a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: auto; /* Đẩy link "Xem chi tiết" về phía trái */
+            margin-bottom: 10px;
+            padding-left: 130px;
+        }
+
+        #product-form {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px; /* Giới hạn chiều rộng của form */
+        }
+
+        #product-form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        #product-form input[type="text"],
+        #product-form input[type="number"] {
+            width: calc(100% - 16px); /* Giảm padding ra khỏi chiều rộng */
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        #product-form button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #product-form button:hover {
+            background-color: #0056b3;
+        }
+        #category-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+#category-list div {
+    margin-bottom: 10px;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <a href="admin.html"><h1>Danh sách sản phẩm</h1></a>
+    <a href="admindanhmuc.html"><h1>Danh sách danh mục</h1></a>
+    <div id="categorY"></div>
+  
+   
+
+    
+    
+    
+  
+    <script src="js/admin.js"></script>
+</body>
+
+</html>

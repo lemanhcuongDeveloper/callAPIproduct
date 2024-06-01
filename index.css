@@ -1,0 +1,273 @@
+body{ 
+    padding:0px;
+    margin:0px;
+}
+.container{ 
+    max-width:1500px;
+    min-height: 1000px;
+    margin:0 auto;
+    position: relative;
+}
+.container .logo img{
+    float:left;
+}
+.container .logo h3{
+    float:left;
+    color:darkgreen;
+    margin-right: 12%;
+}
+.container .account{
+    float:right;
+    margin-right: 20px;
+    margin-top: 1.5%;
+}
+.container .account a{
+    color:darkgreen;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container .account a:hover{
+    color: rgb(182, 51, 88);
+}
+
+
+.container .search{
+    float: left;
+    border: 1px solid rgb(15, 19, 15);
+    margin-top: 1.0%;
+    width:25%;
+    line-height: 35px;
+    border-radius: 15px;
+    background-color: rgba(224, 230, 224, 0.5);
+    padding-left: 50px;
+}
+.search input{
+    padding-left: 50px;
+    width: 80%;
+    margin-left: 2%;
+    line-height: 30px;
+    background: none;
+    border: none;
+}
+.search input:hover{
+    border: none;
+    outline: none;
+}
+.search input:active{
+    border: none;   
+}
+.search #kinhlup{
+    width: 10%;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 17px;
+    color: rgb(15, 24, 15);
+    border: 1px solid rgb(0, 0, 0);
+}
+.container #slide{
+    clear:both;
+    width:1300px;
+    height:500px;
+    margin: 0 auto;
+    position:relative;
+    padding-top: 0.5%;
+}
+#slide img{
+    width:100%;
+    height:100%;
+}
+#slide i:first-child{
+    position:absolute;
+    top:55%;
+    left:-45px;
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+}
+#slide i:last-child{
+    position:absolute;
+    top:55%;
+    right:-45px;
+    color:rgb(15, 22, 15);
+    font-size: 40px;
+}
+#slide p#dem{
+    margin:0;
+    padding: 10px 0;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container .menu .navtrai{ /*thanh menu 5 mục*/
+    width:100%;
+    line-height: 36px;
+    padding:0px;
+    margin-top: 5px;
+    float:left;
+    color:azure;
+    background-color: darkgreen;
+    }
+    .container .menu>ul>li{ /*dàn nganh các mục trong menu*/
+    display:inline-block;
+    position:relative;
+    }
+    .container>ul>li>a{ /*thanh menu*/
+    display:block;
+    font-size: larger;
+    }
+    .container .menu .navtrai li a{
+    margin-left: 45px;
+    }
+    .menu>ul>li>a{ /*các từ trang chủ, liên hệ...*/
+    font-variant:small-caps;
+    font-weight:bolder;
+    font-size: large;
+    margin-left: 10px;
+    margin-right:10px;
+    color:azure;
+    text-decoration: none;
+    }
+    .menu>ul>li>a:hover{  /*các từ trang chủ, liên hệ...khi trỏ chuột*/
+    color: rgb(182, 51, 88);
+    }
+    .menu ul ul { /*để giấu mục trong trang liên hệ*/
+    position:absolute;
+    display: none;
+    list-style: none;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 30px;
+    margin-top:1px;
+    max-width: 160px;
+    text-align:left;
+    }
+    .menu ul ul a{ /*mobile email*/
+    line-height: 40px;
+    color:rgb(4, 4, 4);
+    display:block;
+    max-width: 160px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-align:left;
+    text-indent:-35px;
+    font-size: large;
+    }
+    .menu ul ul li{
+    background-color: white;
+    left: 20px;
+    width:120px;
+    border: 1px dashed rgb(6, 7, 6);
+    }
+    .menu ul ul a:hover{
+    max-width: 160px;  
+    line-height: 40px;
+    color:azure;
+    display:block;
+    text-decoration: none;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: rgb(182, 51, 88);
+    text-indent:-35px;
+    font-size: large;
+    }
+    .menu ul li:hover ul{
+    display:block;
+    width:200px;
+    }
+    .container article{
+    width:100%;
+    min-height: 500px;
+
+    }
+    article table tr td{
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+    article table tr td h3{
+    line-height:3px;
+    }
+    article table tr td button{
+    line-height: 30px;
+    background-color: rgb(6, 11, 6);
+    color:white;
+     }
+     #product-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    
+    #product-list > div {
+        width: 18%;
+        margin-bottom: 20px; /* Để tạo khoảng cách giữa các sản phẩm */
+        text-align: center;
+        
+    }
+
+
+    .product-item button{
+        margin-top: 12px;
+        height: 30px;
+        padding: 0 12px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        transition: all 0.2s ease;
+    }
+    .product-item button:hover{
+        background-color: darkolivegreen;
+        color: aliceblue;
+    }
+    
+    .cart{
+        text-align: center;
+        width:400px;
+        overflow-y: scroll;
+        margin:auto;
+        right:-100%;
+        top:66px;
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border:2px solid green;
+        min-height: 100px;
+    }
+    .cart h2{
+        margin-bottom: 25px;
+    }
+    .cart table{
+        width: 100%;
+    }
+    .cart table thead tr th:first-child{
+        text-align: left;
+    }
+    .cart table tr td{
+        border-bottom: 1px solid rgb(164, 164, 164);
+        padding: 12px 0;
+    }
+    .cart table thead tr th:last-child{
+        text-align: right;
+    }
+    .cart table tbody tr td:last-child{
+        text-align: right;
+    }
+    div button {
+        background-color: darkcyan;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    div button:hover {
+        background-color: #008b8b; /* Màu sáng hơn khi hover */
+    }
+
